@@ -1,0 +1,25 @@
+.EditNote {
+  padding: 1rem 6rem;
+  display: grid;
+  grid-template-rows: 5rem 1fr;
+  gap: 2rem;
+}
+
+.EditNote input,
+.EditNote textarea {
+  color: #555;
+}
+
+.EditNote input {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.EditNote button {
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}

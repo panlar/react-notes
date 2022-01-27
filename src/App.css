@@ -1,0 +1,94 @@
+.ToolBar,
+.NotesList,
+.EditNote,
+.ViewNote,
+.Empty {
+  position: fixed;
+  z-index: 2;
+}
+
+.NotesList {
+  top: 0;
+  bottom: 5rem;
+  width: 400px;
+  left: 0;
+  overflow-y: auto;
+}
+
+.ToolBar {
+  top: 0;
+  height: 5rem;
+}
+
+.ToolBar,
+.EditNote,
+.ViewNote,
+.Empty {
+  left: 400px;
+  right: 0;
+}
+
+.ViewNote,
+.Empty,
+.EditNote {
+  top: 5rem;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  background-image: url('./planets.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-add {
+  position: fixed;
+  left: 1rem;
+  width: 366px;
+  height: 3rem;
+  bottom: 1rem;
+  text-align: center;
+  padding: 0;
+}
+
+.Modal {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Box {
+  padding: 1.5rem;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+}
+
+.Box h4,
+.Box p {
+  margin: 0;
+  padding: 0;
+}
+
+.Box p {
+  margin: 0.5rem 0 2rem;
+}
+
+.Box div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}

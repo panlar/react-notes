@@ -1,0 +1,32 @@
+.Note {
+  padding: 1rem;
+  gap: 1rem;
+  background-color: #fffe;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.Note.drag {
+  background-color: #06f5;
+  color: #06f;
+}
+
+.Note * {
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Note p {
+  margin: 1rem 0;
+}
+
+.Note time {
+  padding: 0.25rem 0.5rem;
+  background-color: #06f3;
+  color: #06f;
+  border-radius: 0.25rem;
+}

@@ -1,0 +1,11 @@
+.NotesList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.NotesList h5 {
+  color: #fff;
+  text-align: center;
+}

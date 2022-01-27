@@ -1,0 +1,24 @@
+.ViewNote {
+  padding: 0 6rem 1rem;
+  font-size: 1rem;
+}
+
+.ViewNote > h3:first-child {
+  margin: 0 0 3rem;
+  padding: 0;
+}
+
+.ViewNote .actions {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.actions button {
+  width: 3rem;
+  height: 3rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
